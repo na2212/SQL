@@ -1,0 +1,35 @@
+CREATE TABLE category (
+  category_id serial, 
+  category_name varchar(30), 
+  category_code integer, 
+  category_description varchar(200), 
+  created_date date, 
+  updated_date date, 
+  created_by integer, 
+  updated by integer
+);
+INSERT INTO categoryservices(
+  category_name, category_code, category_description
+) 
+VALUES 
+  (
+    'Tax and accountancy', '71', 'caluate the tax'
+  );
+select *from category
+INSERT INTO categoryservices(
+  category_name, category_code, category_description
+) 
+VALUES 
+  (
+    'Online accountancy software', '7200547', 
+    'tax can valuvated through online'
+  );
+select *from category
+INSERT INTO categoryservices(
+  category_name, category_code, category_description
+) 
+VALUES 
+  (
+    'Dedicated account manage', 
+    '730987890,' account can be manage ');
+select *from category
